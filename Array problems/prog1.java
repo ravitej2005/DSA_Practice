@@ -11,6 +11,7 @@ class prog1 {
     }
     return i+1;
   }
+  
   public static void main(String[] args) {
     // int[] arr = {1,2,2,3,1,4};
     int[] arr = {5,5,5,7,7,9};
