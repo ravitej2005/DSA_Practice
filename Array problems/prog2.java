@@ -1,18 +1,19 @@
-import java.util.HashMap;
+import java.util.HashSet;
 
-class prog1 {
+class prog2 {
   static int sortArray(int[] arr){
-    HashMap<Integer,Integer> hm = new HashMap<>();
+    HashSet<Integer> hashSet = new HashSet<>();
     for (int i = 0; i < arr.length; i++) {
-      hm.put(arr[i], hm.getOrDefault(arr[i], 0)+1);
+      hashSet.add(arr[i]);
     }
-    System.out.println(hm);
     int i = 0;
-    for (int key : hm.keySet()) {
-      arr[i++] = key;
+    for (int num : hashSet) {
+      arr[i++] = num;
     }
-    return hm.size();
+    System.out.println(hashSet);
+    return hashSet.size();
   }
+
 
   public static void main(String[] args) {
     // int[] arr = {1,2,2,3,1,4};
@@ -20,8 +21,9 @@ class prog1 {
     // int[] arr = {5,8,2,7,1,9};
     // int[] arr = {4,5,1,2,4};
     // int[] arr = {10,20,10,30,40};
-    int distinctElemenets = sortArray(arr);
-    System.out.println(distinctElemenets);
+    int distinctElemenetsCount = sortArray(arr);
+    System.out.println(distinctElemenetsCount );
+    
     for (int j = 0; j < arr.length; j++) {
       System.out.print(arr[j]+" ");
     }
