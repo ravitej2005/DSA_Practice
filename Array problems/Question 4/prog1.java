@@ -1,6 +1,6 @@
 //Move all zeros to the end of the array
 
-class prog7 {
+class prog1 {
   static void sortArray(int[] arr){
     int i = 0;
     int j = 0;

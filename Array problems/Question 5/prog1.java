@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class prog8 {
+class prog1 {
   static int findNum(int[] arr, int num){
     for (int i = 0; i < arr.length; i++) {
       if (arr[i]==num) {

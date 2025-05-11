@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class prog5 {
+class prog1 {
   static int[] leftRotateArray(int[] arr,int k){ 
     int[] temp = new int[arr.length];
     int len = arr.length;

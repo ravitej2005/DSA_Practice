@@ -1,4 +1,4 @@
-class prog11 {
+class prog1 {
   static int getAbsentNumber(int[] arr, int n){
     int sum = (n*(n+1))/2;
     int sumOfArr = 0;

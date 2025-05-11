@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class prog6 {
+class prog2 {
   static void reverseArray(int[] arr, int start, int end){
     while (start<end) {
       int temp = arr[start];

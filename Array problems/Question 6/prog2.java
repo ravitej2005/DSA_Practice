@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class prog10 {
+class prog2 {
   static ArrayList<Integer> findUnion(int[] arr1, int[] arr2){
     System.out.println("in function");
 

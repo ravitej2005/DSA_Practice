@@ -1,4 +1,4 @@
-class prog4 {
+class prog1 {
   static void leftRotateArray(int[] arr){
     int temp = arr[0];
     for (int i = 0; i < arr.length-1; i++) {

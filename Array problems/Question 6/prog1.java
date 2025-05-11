@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class prog9 {
+class prog1 {
   static void sortArray(int[] arr1, int[] arr2, ArrayList<Integer> union) {
 
     int i = 0;
